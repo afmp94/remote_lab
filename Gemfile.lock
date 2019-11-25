@@ -50,10 +50,13 @@ GEM
     bcrypt (3.1.13)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     better_errors (2.5.1)
 =======
 =======
 >>>>>>> b06dfbf2db238c4208e06a5d78cb135dc1cc8de3
+=======
+>>>>>>> 012671788c8058935495d9d88acda5858af41483
     better_errors (2.1.1)
 >>>>>>> 0a1a3a6e8f0152c6baf44fef8b0410a468b4bd63
       coderay (>= 1.0.0)
@@ -90,9 +93,12 @@ GEM
     concurrent-ruby (1.0.5)
     database_cleaner (1.6.1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0a1a3a6e8f0152c6baf44fef8b0410a468b4bd63
 =======
 >>>>>>> b06dfbf2db238c4208e06a5d78cb135dc1cc8de3
+=======
+>>>>>>> 012671788c8058935495d9d88acda5858af41483
     devise (4.7.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -169,12 +175,17 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
-    mini_portile2 (2.1.0)
+    mini_portile2 (2.4.0)
     minitest (5.10.2)
     multi_json (1.12.1)
     nio4r (2.0.0)
+<<<<<<< HEAD
     nokogiri (1.7.2)
       mini_portile2 (~> 2.1.0)
+=======
+    nokogiri (1.10.5)
+      mini_portile2 (~> 2.4.0)
+>>>>>>> 012671788c8058935495d9d88acda5858af41483
     orm_adapter (0.5.0)
     public_suffix (2.0.5)
     puma (3.8.2)
@@ -285,9 +296,12 @@ GEM
       rubyzip (~> 1.0)
       websocket (~> 1.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0a1a3a6e8f0152c6baf44fef8b0410a468b4bd63
 =======
 >>>>>>> b06dfbf2db238c4208e06a5d78cb135dc1cc8de3
+=======
+>>>>>>> 012671788c8058935495d9d88acda5858af41483
     simple_form (5.0.1)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
@@ -300,10 +314,13 @@ GEM
       slim (>= 3.0, < 5.0)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     spring (2.1.0)
 =======
 =======
 >>>>>>> b06dfbf2db238c4208e06a5d78cb135dc1cc8de3
+=======
+>>>>>>> 012671788c8058935495d9d88acda5858af41483
     spring (2.0.1)
       activesupport (>= 4.2)
 >>>>>>> 0a1a3a6e8f0152c6baf44fef8b0410a468b4bd63
@@ -339,6 +356,7 @@ GEM
       execjs (>= 0.3.0, < 3)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     warden (1.2.8)
       rack (>= 2.0.6)
     web-console (3.7.0)
@@ -349,6 +367,10 @@ GEM
     warden (1.2.8)
       rack (>= 2.0.6)
 >>>>>>> b06dfbf2db238c4208e06a5d78cb135dc1cc8de3
+=======
+    warden (1.2.7)
+      rack (>= 1.0)
+>>>>>>> 012671788c8058935495d9d88acda5858af41483
     web-console (3.5.1)
 >>>>>>> 0a1a3a6e8f0152c6baf44fef8b0410a468b4bd63
       actionview (>= 5.0)
