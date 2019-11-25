@@ -49,8 +49,11 @@ GEM
       execjs
     bcrypt (3.1.13)
 <<<<<<< HEAD
+<<<<<<< HEAD
     better_errors (2.5.1)
 =======
+=======
+>>>>>>> b06dfbf2db238c4208e06a5d78cb135dc1cc8de3
     better_errors (2.1.1)
 >>>>>>> 0a1a3a6e8f0152c6baf44fef8b0410a468b4bd63
       coderay (>= 1.0.0)
@@ -86,7 +89,10 @@ GEM
 =======
     concurrent-ruby (1.0.5)
     database_cleaner (1.6.1)
+<<<<<<< HEAD
 >>>>>>> 0a1a3a6e8f0152c6baf44fef8b0410a468b4bd63
+=======
+>>>>>>> b06dfbf2db238c4208e06a5d78cb135dc1cc8de3
     devise (4.7.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -172,7 +178,7 @@ GEM
     orm_adapter (0.5.0)
     public_suffix (2.0.5)
     puma (3.8.2)
-    rack (2.0.3)
+    rack (2.0.7)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (5.1.1)
@@ -278,7 +284,10 @@ GEM
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
       websocket (~> 1.0)
+<<<<<<< HEAD
 >>>>>>> 0a1a3a6e8f0152c6baf44fef8b0410a468b4bd63
+=======
+>>>>>>> b06dfbf2db238c4208e06a5d78cb135dc1cc8de3
     simple_form (5.0.1)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
@@ -290,8 +299,11 @@ GEM
       railties (>= 3.1)
       slim (>= 3.0, < 5.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
     spring (2.1.0)
 =======
+=======
+>>>>>>> b06dfbf2db238c4208e06a5d78cb135dc1cc8de3
     spring (2.0.1)
       activesupport (>= 4.2)
 >>>>>>> 0a1a3a6e8f0152c6baf44fef8b0410a468b4bd63
@@ -326,12 +338,17 @@ GEM
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
 <<<<<<< HEAD
+<<<<<<< HEAD
     warden (1.2.8)
       rack (>= 2.0.6)
     web-console (3.7.0)
 =======
     warden (1.2.7)
       rack (>= 1.0)
+=======
+    warden (1.2.8)
+      rack (>= 2.0.6)
+>>>>>>> b06dfbf2db238c4208e06a5d78cb135dc1cc8de3
     web-console (3.5.1)
 >>>>>>> 0a1a3a6e8f0152c6baf44fef8b0410a468b4bd63
       actionview (>= 5.0)
