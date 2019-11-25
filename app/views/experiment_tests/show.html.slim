@@ -1,0 +1,12 @@
+p#notice = notice
+
+p
+  strong Belongs to:
+  = @experiment_test.belongs_to
+p
+  strong :
+  = @experiment_test.
+
+=> link_to 'Edit', edit_experiment_test_path(@experiment_test)
+'|
+=< link_to 'Back', experiment_tests_path

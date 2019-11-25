@@ -1,0 +1,21 @@
+h1 Listing lab_leds
+
+table
+  thead
+    tr
+      th Experimient test
+      th
+      th
+      th
+
+  tbody
+    - @lab_leds.each do |lab_led|
+      tr
+        td = lab_led.Experimient_test
+        td = link_to 'Show', lab_led
+        td = link_to 'Edit', edit_lab_led_path(lab_led)
+        td = link_to 'Destroy', lab_led, data: { confirm: 'Are you sure?' }, method: :delete
+
+br
+
+= link_to 'New Lab led', new_lab_led_path
