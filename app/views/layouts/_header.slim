@@ -6,14 +6,12 @@ nav.site-header.sticky-top.py-1
           = link_to 'experiments', experiment_tests_path
         path[d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"]
     = link_to 'Proyecto', pages_proyecto_path, class: 'py-2 d-none d-md-inline-block'
-    a.py-2.d-none.d-md-inline-block[href="#"]
     = link_to 'Características', pages_caracteristicas_path, class: 'py-2 d-none d-md-inline-block'
-    a.py-2.d-none.d-md-inline-block[href="#"]
     = link_to 'Documentación', pages_documentacion_path, class: 'py-2 d-none d-md-inline-block'
-    a.py-2.d-none.d-md-inline-block[href="#"]
     = link_to 'Soporte', pages_soporte_path, class: 'py-2 d-none d-md-inline-block'
-    a.py-2.d-none.d-md-inline-block[href="#"]
-    = link_to 'Registrarse', pages_registrarse_path, class: 'py-2 d-none d-md-inline-block'
-    a.py-2.d-none.d-md-inline-block[href="#"]
-    = link_to 'Iniciar sesion', pages_inicio_Sesion_path, class: 'py-2 d-none d-md-inline-block'
-    a.py-2.d-none.d-md-inline-block[href="#"]
+    - if user_signed_in?
+      = link_to 'Cerrar sesión', destroy_user_session_path, method: :delete, class: 'py-2 d-none d-md-inline-block'
+    - else
+      = link_to 'Registrarse', new_user_registration_path, class: 'py-2 d-none d-md-inline-block'
+      = link_to 'Iniciar sesion', new_user_session_path, class: 'py-2 d-none d-md-inline-block'
+
