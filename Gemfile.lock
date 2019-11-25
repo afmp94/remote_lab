@@ -52,6 +52,7 @@ GEM
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     better_errors (2.5.1)
 =======
 =======
@@ -60,6 +61,8 @@ GEM
 >>>>>>> 012671788c8058935495d9d88acda5858af41483
 =======
 >>>>>>> e43af64593c129a57dfdf2c51c58f5cffdd0246b
+=======
+>>>>>>> 34824a70cbab0551f649ba92a99bfd2c6af4b974
     better_errors (2.1.1)
 >>>>>>> 0a1a3a6e8f0152c6baf44fef8b0410a468b4bd63
       coderay (>= 1.0.0)
@@ -99,6 +102,7 @@ GEM
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0a1a3a6e8f0152c6baf44fef8b0410a468b4bd63
 =======
 >>>>>>> b06dfbf2db238c4208e06a5d78cb135dc1cc8de3
@@ -106,6 +110,8 @@ GEM
 >>>>>>> 012671788c8058935495d9d88acda5858af41483
 =======
 >>>>>>> e43af64593c129a57dfdf2c51c58f5cffdd0246b
+=======
+>>>>>>> 34824a70cbab0551f649ba92a99bfd2c6af4b974
     devise (4.7.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -188,6 +194,7 @@ GEM
     nio4r (2.0.0)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     nokogiri (1.7.2)
       mini_portile2 (~> 2.1.0)
 =======
@@ -198,6 +205,10 @@ GEM
     nokogiri (1.10.5)
       mini_portile2 (~> 2.4.0)
 >>>>>>> e43af64593c129a57dfdf2c51c58f5cffdd0246b
+=======
+    nokogiri (1.10.5)
+      mini_portile2 (~> 2.4.0)
+>>>>>>> 34824a70cbab0551f649ba92a99bfd2c6af4b974
     orm_adapter (0.5.0)
     public_suffix (2.0.5)
     puma (3.8.2)
@@ -222,10 +233,17 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.3.0)
       loofah (~> 2.3)
+<<<<<<< HEAD
     rails_layout (1.0.42)
     railties (5.2.3)
       actionpack (= 5.2.3)
       activesupport (= 5.2.3)
+=======
+    rails_layout (1.0.41)
+    railties (5.1.1)
+      actionpack (= 5.1.1)
+      activesupport (= 5.1.1)
+>>>>>>> 34824a70cbab0551f649ba92a99bfd2c6af4b974
       method_source
       rake (>= 0.8.7)
 <<<<<<< HEAD
@@ -310,6 +328,7 @@ GEM
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0a1a3a6e8f0152c6baf44fef8b0410a468b4bd63
 =======
 >>>>>>> b06dfbf2db238c4208e06a5d78cb135dc1cc8de3
@@ -317,6 +336,8 @@ GEM
 >>>>>>> 012671788c8058935495d9d88acda5858af41483
 =======
 >>>>>>> e43af64593c129a57dfdf2c51c58f5cffdd0246b
+=======
+>>>>>>> 34824a70cbab0551f649ba92a99bfd2c6af4b974
     simple_form (5.0.1)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
@@ -331,6 +352,7 @@ GEM
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     spring (2.1.0)
 =======
 =======
@@ -339,6 +361,8 @@ GEM
 >>>>>>> 012671788c8058935495d9d88acda5858af41483
 =======
 >>>>>>> e43af64593c129a57dfdf2c51c58f5cffdd0246b
+=======
+>>>>>>> 34824a70cbab0551f649ba92a99bfd2c6af4b974
     spring (2.0.1)
       activesupport (>= 4.2)
 >>>>>>> 0a1a3a6e8f0152c6baf44fef8b0410a468b4bd63
@@ -376,6 +400,7 @@ GEM
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     warden (1.2.8)
       rack (>= 2.0.6)
     web-console (3.7.0)
@@ -394,6 +419,10 @@ GEM
     warden (1.2.7)
       rack (>= 1.0)
 >>>>>>> e43af64593c129a57dfdf2c51c58f5cffdd0246b
+=======
+    warden (1.2.7)
+      rack (>= 1.0)
+>>>>>>> 34824a70cbab0551f649ba92a99bfd2c6af4b974
     web-console (3.5.1)
 >>>>>>> 0a1a3a6e8f0152c6baf44fef8b0410a468b4bd63
       actionview (>= 5.0)
