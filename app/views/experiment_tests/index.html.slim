@@ -6,23 +6,23 @@
     p.lead.font-weight-normal
       | Accede a las prácticas en tiempo real, obten resultados eficientes y en vivo
     a.btn.btn-outline-secondary[href="#"]
-      | Registrarse
+      | Probar
   .product-device.shadow-sm.d-none.d-md-block
   .product-device.product-device-2.shadow-sm.d-none.d-md-block
 .d-md-flex.flex-md-equal.w-100.my-md-3.pl-md-3
   .bg-dark.mr-md-3.pt-3.px-3.pt-md-5.px-md-5.text-center.text-white.overflow-hidden
     .my-3.py-3
       h2.display-5
-        | Another headline
+        | Práctica de prueba
       p.lead
-        | And an even wittier subheading.
+        | Encender un led con Raspberry
     .bg-light.shadow-sm.mx-auto[style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"]
   .bg-light.mr-md-3.pt-3.px-3.pt-md-5.px-md-5.text-center.overflow-hidden
     .my-3.p-3
       h2.display-5
-        | Another headline
+        | Práctica de temperatura
       p.lead
-        | And an even wittier subheading.
+        | Interactúa con sensores de temperatura en vivo
     .bg-dark.shadow-sm.mx-auto[style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"]
 .d-md-flex.flex-md-equal.w-100.my-md-3.pl-md-3
   .bg-light.mr-md-3.pt-3.px-3.pt-md-5.px-md-5.text-center.overflow-hidden
@@ -70,26 +70,26 @@
         | And an even wittier subheading.
     .bg-white.shadow-sm.mx-auto[style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"]
 
-h1 Listing experiment_tests
-
-table
-  thead
-    tr
-      th Belongs to
-      th 
-      th
-      th
-      th
-
-  tbody
-    - @experiment_tests.each do |experiment_test|
-      tr
-        td = experiment_test.belongs_to
-        td = experiment_test.lab_led.id
-        td = link_to 'Show', experiment_test
-        td = link_to 'Edit', edit_experiment_test_path(experiment_test)
-        td = link_to 'Destroy', experiment_test, data: { confirm: 'Are you sure?' }, method: :delete
-
-br
+/ h1 Listing experiment_tests
+/
+/ table
+/   thead
+/     tr
+/       th Belongs to
+/       th
+/       th
+/       th
+/       th
+/
+/   tbody
+/     - @experiment_tests.each do |experiment_test|
+/       tr
+/         td = experiment_test.belongs_to
+/         td = experiment_test.lab_led.id
+/         td = link_to 'Show', experiment_test
+/         td = link_to 'Edit', edit_experiment_test_path(experiment_test)
+/         td = link_to 'Destroy', experiment_test, data: { confirm: 'Are you sure?' }, method: :delete
+/
+/ br
 
 = link_to 'New Experiment test', new_experiment_test_path
