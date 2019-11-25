@@ -16,6 +16,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise'
 
 
+
 gem 'simple_form'                           # Forms made easy for Rails
 gem 'slim'                                  # View processor
 gem 'slim-rails'                            # everytime is run an scaffold a slim view is generated.
