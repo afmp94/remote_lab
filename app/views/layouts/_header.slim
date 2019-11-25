@@ -3,18 +3,17 @@ nav.site-header.sticky-top.py-1
     a.py-2[href="#"]
       svg.d-block.mx-auto[xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" viewbox="0 0 24 24" focusable="false"]
         title
-          | Labs
-        circle[cx="12" cy="12" r="10"]
+          = link_to 'experiments', experiment_tests_path
         path[d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"]
+    = link_to 'Proyecto', pages_proyecto_path, class: 'py-2 d-none d-md-inline-block'
     a.py-2.d-none.d-md-inline-block[href="#"]
-      | Proyecto
+    = link_to 'Características', pages_caracteristicas_path, class: 'py-2 d-none d-md-inline-block'
     a.py-2.d-none.d-md-inline-block[href="#"]
-      | Características
+    = link_to 'Documentación', pages_documentacion_path, class: 'py-2 d-none d-md-inline-block'
     a.py-2.d-none.d-md-inline-block[href="#"]
-      | Documentación
+    = link_to 'Soporte', pages_soporte_path, class: 'py-2 d-none d-md-inline-block'
     a.py-2.d-none.d-md-inline-block[href="#"]
-      | Soporte
+    = link_to 'Registrarse', pages_registrarse_path, class: 'py-2 d-none d-md-inline-block'
     a.py-2.d-none.d-md-inline-block[href="#"]
-      | Registrarse
+    = link_to 'Iniciar sesion', pages_inicio_Sesion_path, class: 'py-2 d-none d-md-inline-block'
     a.py-2.d-none.d-md-inline-block[href="#"]
-      | Iniciar sesión
